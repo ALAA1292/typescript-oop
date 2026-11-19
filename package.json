@@ -1,0 +1,14 @@
+{
+  "name": "ass14",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+  "start:dev": "concurrently \"tsc -w\" \"node --watch dist/index.js\""  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "concurrently": "^10.0.7"
+  }
+}
